@@ -1,4 +1,5 @@
 import { title } from "styles/jss/nextjs-material-kit.js";
+import imagesStyles from "styles/jss/nextjs-material-kit/imagesStyles.js";
 
 const productStyle = {
   section: {
@@ -8,7 +9,7 @@ const productStyle = {
   title: {
     ...title,
     marginBottom: "1rem",
-    marginTop: "0",
+    marginTop: "1rem",
     minHeight: "32px",
     textDecoration: "none",
     color: "#4caf50"
@@ -17,6 +18,10 @@ const productStyle = {
     color: "#999",
     marginBottom: "2rem",
   },
+  profilePic: {
+    width: "165px"
+  },
+  ...imagesStyles,
 };
 
 export default productStyle;

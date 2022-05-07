@@ -82,7 +82,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>MY LANDING PAGE</title>
+          <title>Welcome to traderwally7.xyz</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>

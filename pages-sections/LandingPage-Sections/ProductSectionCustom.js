@@ -29,6 +29,21 @@ export default function ProductSectionCustom() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
+            <img
+                src="/img/twprofile.png"
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRoundedCircle +
+                  " " +
+                  classes.imgFluid +
+                  " " +
+                  classes.profilePic
+                }
+              />
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
           <h1 className={classes.title}>traderwally7</h1>
           <h5 className={classes.description}>
             Solidity / ReactJS / Next.js / Javascript
