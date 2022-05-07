@@ -18,7 +18,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
-import ProductSectionCustom from "pages-sections/LandingPage-Sections/ProductSectionCustom.js";
+import AboutMeSection from "pages-sections/AboutMeSection.js";
 
 const dashboardRoutes = [];
 
@@ -32,7 +32,7 @@ export default function LandingPage(props) {
       <Parallax filter responsive image="/img/forest-landing-bg.jpg">
         <div className={classNames(classes.main, classes.mainRaisedCenter)}>
             <div className={classes.container}>
-                <ProductSectionCustom />
+                <AboutMeSection />
             </div>
         </div>
       </Parallax>

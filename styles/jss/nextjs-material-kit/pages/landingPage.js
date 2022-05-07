@@ -1,4 +1,3 @@
-import { Autorenew } from "@material-ui/icons";
 import { container, title } from "styles/jss/nextjs-material-kit.js";
 
 const landingPageStyle = {

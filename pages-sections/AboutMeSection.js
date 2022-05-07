@@ -3,10 +3,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
-import Favorite from "@material-ui/icons/Favorite";
 import GitHub from "@material-ui/icons/GitHub";
 import Twitter from "@material-ui/icons/Twitter";
 
@@ -14,16 +10,13 @@ import Twitter from "@material-ui/icons/Twitter";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import InfoArea from "components/InfoArea/InfoArea.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "styles/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
-
-
 const useStyles = makeStyles(styles);
 
-export default function ProductSectionCustom() {
+export default function AboutMeSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
