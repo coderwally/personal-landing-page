@@ -1,3 +1,4 @@
+import { purple, yellow } from "@material-ui/core/colors";
 import { title } from "styles/jss/nextjs-material-kit.js";
 import imagesStyles from "styles/jss/nextjs-material-kit/imagesStyles.js";
 
@@ -8,11 +9,20 @@ const productStyle = {
   },
   title: {
     ...title,
-    marginBottom: "1rem",
+    marginBottom: "0.1rem",
     marginTop: "1rem",
     minHeight: "32px",
     textDecoration: "none",
     color: "#4caf50"
+  },
+  subtitle: {
+    fontSize: "20px",
+    fontWeight: "bold",
+    color: "#4caf50",
+    marginTop: "0"
+  },
+  titlesection: {
+    color: "#000000"
   },
   description: {
     color: "#999",

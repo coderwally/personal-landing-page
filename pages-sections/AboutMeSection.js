@@ -37,10 +37,13 @@ export default function AboutMeSection() {
               />
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
-          <h1 className={classes.title}>traderwally7</h1>
-          <h5 className={classes.description}>
-            Solidity / ReactJS / Next.js / Javascript
-          </h5>
+          <div className={classes.titlesection}>
+            <h1 className={classes.title}>traderwally7 </h1>
+            <h2 className={classes.subtitle}>(a.k.a. coderwally)</h2>
+            <h5 className={classes.description}>
+              Solidity / ReactJS / Next.js / Javascript
+            </h5>
+          </div>
         </GridItem>
       </GridContainer>
       <div>
